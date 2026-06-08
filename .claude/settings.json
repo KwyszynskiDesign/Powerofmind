@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "tool": "Write",
+        "pattern": "\\.html$",
+        "command": "echo 'HTML file written. Reminder: validate semantic structure and check for duplicate IDs.'"
+      },
+      {
+        "tool": "Write",
+        "pattern": "\\.css$",
+        "command": "echo 'CSS file written. Reminder: check for duplicated rules and ensure mobile-first ordering.'"
+      },
+      {
+        "tool": "Write",
+        "pattern": "\\.js$",
+        "command": "echo 'JS file written. Reminder: check for console.log leaks and ensure no hardcoded secrets.'"
+      }
+    ]
+  }
+}
