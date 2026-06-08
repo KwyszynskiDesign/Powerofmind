@@ -1,0 +1,45 @@
+# Lockfiles i zależności
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+node_modules/
+
+# Build / cache
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+
+# WordPress / stare pliki (jeśli zostaną w repo)
+wp-content/
+wp-admin/
+wp-includes/
+*.php
+.htaccess
+
+# Duże binaria / assety (Claude nie musi czytać zawartości obrazów)
+*.zip
+*.tar.gz
+*.pdf
+site/assets/images/*.jpg
+site/assets/images/*.jpeg
+site/assets/images/*.png
+site/assets/images/*.webp
+site/assets/images/*.svg
+site/assets/fonts/*.woff2
+site/assets/fonts/*.woff
+site/assets/fonts/*.ttf
+
+# IDE / system
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tymczasowe
+*.tmp
+*.temp
+*.log
