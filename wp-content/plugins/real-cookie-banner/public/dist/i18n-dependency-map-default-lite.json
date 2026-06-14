@@ -1,0 +1,36 @@
+{
+    "chunk-config-tab-dashboard.lite.js": [
+        "chunk-config-tab-dashboard.lite.js"
+    ],
+    "chunk-config-tab-settings.lite.js": [
+        "chunk-config-tab-settings.lite.js"
+    ],
+    "chunk-config-tab-scanner.lite.js": [
+        "chunk-config-tab-scanner.lite.js"
+    ],
+    "chunk-config-tab-cookies.lite.js": [
+        "chunk-config-tab-cookies.lite.js",
+        "249.lite.js",
+        "756.lite.js"
+    ],
+    "chunk-config-tab-tcf.lite.js": [
+        "chunk-config-tab-tcf.lite.js",
+        "249.lite.js",
+        "168.lite.js"
+    ],
+    "chunk-config-tab-consent.lite.js": [
+        "chunk-config-tab-consent.lite.js"
+    ],
+    "chunk-config-tab-blocker.lite.js": [
+        "chunk-config-tab-blocker.lite.js",
+        "249.lite.js",
+        "756.lite.js",
+        "168.lite.js"
+    ],
+    "chunk-config-tab-import.lite.js": [
+        "chunk-config-tab-import.lite.js"
+    ],
+    "chunk-config-tab-licensing.lite.js": [
+        "chunk-config-tab-licensing.lite.js"
+    ]
+}

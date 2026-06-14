@@ -1,0 +1,36 @@
+.woonp_table .woonp_tr {
+    display: flex;
+    padding: 12px;
+}
+
+.woonp_table .woonp_tr .woonp_td:first-child {
+    width: 150px;
+}
+
+.woonp_table .woonp_tr .woonp_td:last-child {
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.woonp_table .woonp_tr.woonp_show_if_overwrite {
+    display: none;
+}
+
+.woonp_table label {
+    float: none !important;
+    margin-left: 0 !important;
+    width: auto !important;
+}
+
+.woonp_active {
+    display: flex;
+    align-items: center;
+}
+
+.woonp_active > label {
+    margin-right: 10px;
+}
+
+.woonp_tab a:before {
+    content: '\f529' !important;
+}

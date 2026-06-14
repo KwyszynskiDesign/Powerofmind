@@ -1,0 +1,20 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_13870_4502)">
+        <g>
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 8 8" to="360 8 8" dur="0.9s" repeatCount="indefinite"/>
+            <path d="M8.5 0H7.5V5H8.5V0Z" fill="#1A1A1A"/>
+            <path opacity="0.6" d="M8.5 11H7.5V16H8.5V11Z" fill="#1A1A1A"/>
+            <path opacity="0.8" d="M16 7.5H11V8.5H16V7.5Z" fill="#1A1A1A"/>
+            <path opacity="0.4" d="M5 7.5H0V8.5H5V7.5Z" fill="#1A1A1A"/>
+            <path opacity="0.9" d="M13.308 1.98742L9.77246 5.52295L10.4796 6.23006L14.0151 2.69452L13.308 1.98742Z" fill="#1A1A1A"/>
+            <path opacity="0.5" d="M5.52772 9.77001L1.99219 13.3055L2.69929 14.0126L6.23483 10.4771L5.52772 9.77001Z" fill="#1A1A1A"/>
+            <path opacity="0.7" d="M10.4805 9.76872L9.77344 10.4758L13.309 14.0114L14.0161 13.3043L10.4805 9.76872Z" fill="#1A1A1A"/>
+            <path opacity="0.3" d="M2.69832 1.98869L1.99121 2.6958L5.52674 6.23133L6.23385 5.52423L2.69832 1.98869Z" fill="#1A1A1A"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_13870_4502">
+            <rect width="16" height="16" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>

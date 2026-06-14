@@ -1,0 +1,36 @@
+{
+    "chunk-config-tab-dashboard.pro.js": [
+        "chunk-config-tab-dashboard.pro.js"
+    ],
+    "chunk-config-tab-settings.pro.js": [
+        "chunk-config-tab-settings.pro.js"
+    ],
+    "chunk-config-tab-scanner.pro.js": [
+        "chunk-config-tab-scanner.pro.js"
+    ],
+    "chunk-config-tab-cookies.pro.js": [
+        "chunk-config-tab-cookies.pro.js",
+        "383.pro.js",
+        "138.pro.js"
+    ],
+    "chunk-config-tab-tcf.pro.js": [
+        "chunk-config-tab-tcf.pro.js",
+        "383.pro.js",
+        "917.pro.js"
+    ],
+    "chunk-config-tab-consent.pro.js": [
+        "chunk-config-tab-consent.pro.js"
+    ],
+    "chunk-config-tab-blocker.pro.js": [
+        "chunk-config-tab-blocker.pro.js",
+        "383.pro.js",
+        "138.pro.js",
+        "917.pro.js"
+    ],
+    "chunk-config-tab-import.pro.js": [
+        "chunk-config-tab-import.pro.js"
+    ],
+    "chunk-config-tab-licensing.pro.js": [
+        "chunk-config-tab-licensing.pro.js"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "name": "@devowl-wp/cookie-consent-management",
+    "version": "1.0.45",
+    "private": true,
+    "description": "Provide cookie consent management with adapters to your environment",
+    "homepage": "https://devowl.io/",
+    "license": "GPL-3.0-or-later",
+    "author": "DevOwl",
+    "sideEffects": [
+        "**/*.{css,scss,less}",
+        "./src/public/ts/*.tsx"
+    ],
+    "type": "module",
+    "exports": {
+        ".": {
+            "devowl-source": "./lib/index.tsx",
+            "default": "./lib/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "dev"
+    ],
+    "scripts": {
+        "bootstrap": "while ! composer install --prefer-dist; do rm -rf vendor; done;",
+        "disclaimer:composer": "dowl --silent task @devowl-wp/composer-licenses:disclaimer",
+        "lint:eslint": "dowl --silent task @devowl-wp/eslint-config",
+        "lint:phpcs": "dowl --silent task @devowl-wp/phpcs-config",
+        "task": "task --taskfile ./tasks/Taskfile.yml"
+    },
+    "devDependencies": {
+        "@devowl-wp/composer-licenses": "workspace:*",
+        "@devowl-wp/continuous-integration": "workspace:*",
+        "@devowl-wp/cookie-consent-web-client": "workspace:*",
+        "@devowl-wp/eslint-config": "workspace:*",
+        "@devowl-wp/headless-content-unblocker": "workspace:*",
+        "@devowl-wp/node-gitlab-ci": "workspace:*",
+        "@devowl-wp/npm-licenses": "workspace:*",
+        "@devowl-wp/phpcs-config": "workspace:*",
+        "@devowl-wp/react-cookie-banner": "workspace:*",
+        "@devowl-wp/react-cookie-banner-admin": "workspace:*",
+        "@devowl-wp/ts-config": "workspace:*",
+        "@swc-node/register": "catalog:build",
+        "tslib": "catalog:build",
+        "typescript": "catalog:build",
+        "webpack-cli": "catalog:webpack"
+    },
+    "peerDependencies": {
+        "@devowl-wp/cookie-consent-web-client": "workspace:*",
+        "@devowl-wp/headless-content-unblocker": "workspace:*",
+        "@devowl-wp/react-cookie-banner": "workspace:*",
+        "@devowl-wp/react-cookie-banner-admin": "workspace:*",
+        "@types/node": "catalog:types"
+    },
+    "license-check": {
+        "spdx": [
+            "MIT",
+            "ISC",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "Apache-2.0",
+            "Artistic-2.0",
+            "WTFPL",
+            "CC-0",
+            "CC0-1.0",
+            "MPL-2.0",
+            "ZLib",
+            "Unlicense",
+            "GPL-2.0",
+            "GPL-2.0-or-later",
+            "GPL-3",
+            "GPL-3.0-or-later",
+            "LGPL-3.0-or-later"
+        ],
+        "packages": [
+            "ignore-packages-here@1.0.0"
+        ]
+    },
+    "versionBump": [
+        "rcb-major-v5"
+    ]
+}

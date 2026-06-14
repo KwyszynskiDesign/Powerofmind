@@ -1,0 +1,32 @@
+{
+  "vendor-banner.lite.js": {
+    "banner-common-async": [
+      "banner-lite-banner-common-async.lite.js?ver=4bd110cae9c29f14"
+    ],
+    "blocker-ui": [
+      "banner-lite-blocker-ui.lite.js?ver=c967fd425a129dca"
+    ]
+  },
+  "banner.lite.js": {
+    "banner-common-async": [
+      "banner-lite-banner-common-async.lite.js?ver=4bd110cae9c29f14"
+    ],
+    "banner-ui": [
+      "banner-lite-banner-ui.lite.js?ver=5fbb5a0716ad2fb2"
+    ],
+    "cookie-policy": [
+      "banner-lite-cookie-policy.lite.js?ver=294b5485305d68eb"
+    ],
+    "banner-lazy": [
+      "banner-lite-banner-lazy.lite.js?ver=f6a1181d334d4ada"
+    ]
+  },
+  "blocker.lite.js": {
+    "banner-common-async": [
+      "banner-lite-banner-common-async.lite.js?ver=4bd110cae9c29f14"
+    ],
+    "blocker-ui": [
+      "banner-lite-blocker-ui.lite.js?ver=c967fd425a129dca"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "vendor-banner_tcf.pro.js": {
+    "vendor-banner_tcf-common-async": [
+      "banner_tcf-pro-vendor-banner_tcf-common-async.pro.js?ver=63ff18101ef3f27d"
+    ],
+    "banner_tcf-common-async": [
+      "banner_tcf-pro-banner_tcf-common-async.pro.js?ver=8c2c3e55fe5d0258"
+    ],
+    "blocker-ui": [
+      "banner_tcf-pro-blocker-ui.pro.js?ver=102f2844261b1bdf"
+    ]
+  },
+  "banner_tcf.pro.js": {
+    "vendor-banner_tcf-common-async": [
+      "banner_tcf-pro-vendor-banner_tcf-common-async.pro.js?ver=63ff18101ef3f27d"
+    ],
+    "banner_tcf-common-async": [
+      "banner_tcf-pro-banner_tcf-common-async.pro.js?ver=8c2c3e55fe5d0258"
+    ],
+    "banner-ui": [
+      "banner_tcf-pro-banner-ui.pro.js?ver=b0742f887958fe06"
+    ],
+    "cookie-policy": [
+      "banner_tcf-pro-cookie-policy.pro.js?ver=2a325de525e527b9"
+    ],
+    "banner-lazy": [
+      "banner_tcf-pro-banner-lazy.pro.js?ver=e95d23b9e61a0181"
+    ]
+  },
+  "blocker_tcf.pro.js": {
+    "vendor-banner_tcf-common-async": [
+      "banner_tcf-pro-vendor-banner_tcf-common-async.pro.js?ver=63ff18101ef3f27d"
+    ],
+    "banner_tcf-common-async": [
+      "banner_tcf-pro-banner_tcf-common-async.pro.js?ver=8c2c3e55fe5d0258"
+    ],
+    "blocker-ui": [
+      "banner_tcf-pro-blocker-ui.pro.js?ver=102f2844261b1bdf"
+    ]
+  }
+}

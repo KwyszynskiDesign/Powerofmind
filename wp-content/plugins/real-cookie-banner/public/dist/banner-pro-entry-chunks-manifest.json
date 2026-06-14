@@ -1,0 +1,32 @@
+{
+  "vendor-banner.pro.js": {
+    "banner-common-async": [
+      "banner-pro-banner-common-async.pro.js?ver=52be9ece2c571eef"
+    ],
+    "blocker-ui": [
+      "banner-pro-blocker-ui.pro.js?ver=1b038bc3bdee9f68"
+    ]
+  },
+  "banner.pro.js": {
+    "banner-common-async": [
+      "banner-pro-banner-common-async.pro.js?ver=52be9ece2c571eef"
+    ],
+    "banner-ui": [
+      "banner-pro-banner-ui.pro.js?ver=402093d53ee8b8bb"
+    ],
+    "cookie-policy": [
+      "banner-pro-cookie-policy.pro.js?ver=c6b57a71b87f1c88"
+    ],
+    "banner-lazy": [
+      "banner-pro-banner-lazy.pro.js?ver=2ebddcad2dda1268"
+    ]
+  },
+  "blocker.pro.js": {
+    "banner-common-async": [
+      "banner-pro-banner-common-async.pro.js?ver=52be9ece2c571eef"
+    ],
+    "blocker-ui": [
+      "banner-pro-blocker-ui.pro.js?ver=1b038bc3bdee9f68"
+    ]
+  }
+}
