@@ -2525,9 +2525,10 @@ document.addEventListener('DOMContentLoaded', function () {
       timestamp:                  new Date().toISOString()
     };
 
-    fetch('/api-session.php', {
+    fetch('https://script.google.com/macros/s/AKfycbyr7r3AYp1qEWZqKGuK9KJGHfw5ny8jQgoxE6xFUke0mETsx0DgjU4lc722A3n5KnAnRw/exec', {
       method:  'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' },
+      mode:    'no-cors',
+      headers: { 'Content-Type': 'text/plain' },
       body:    JSON.stringify(jsonData)
     })
     .then(function (response) {

@@ -2402,9 +2402,8 @@ html, body {
 
     let data = null;
     try {
-      const res = await fetch('/api-session.php', {
-        credentials: 'same-origin',
-        cache: 'default' 
+      const res = await fetch('/api-session.json', {
+        cache: 'no-store'
       });
       const raw = await res.text();
       data = raw ? JSON.parse(raw) : null;
