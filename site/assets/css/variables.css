@@ -1,0 +1,25 @@
+:root {
+  --color-accent: #00c9aa;
+  --color-accent-dark: #00b096;
+  --color-primary: #234070;
+  --color-text: #2b2b2b;
+  --color-text-light: #757575;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8f8f8;
+  --color-border: #efefef;
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Roboto', sans-serif;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  --container-max: 1200px;
+  --container-pad: 24px;
+
+  --radius: 5px;
+  --transition: 0.25s ease;
+}
