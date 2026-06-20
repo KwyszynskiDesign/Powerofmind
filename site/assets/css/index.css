@@ -12,7 +12,7 @@
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('/assets/images/tla/fog.jpg');
+  background-image: url('../images/tla/fog.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.18;
@@ -477,7 +477,7 @@
 
 .faq__question::after {
   content: '+';
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--color-accent);
   flex-shrink: 0;
   transition: transform var(--transition);
