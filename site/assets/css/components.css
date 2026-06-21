@@ -36,6 +36,11 @@
   text-decoration: none;
 }
 
+.btn-lg {
+  padding: 16px 40px;
+  font-size: 1.05rem;
+}
+
 /* ── Cookie banner ── */
 .cookie-banner {
   position: fixed;
