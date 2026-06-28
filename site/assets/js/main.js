@@ -30,18 +30,7 @@ function initSmoothScroll() {
   });
 }
 
-function initFaq() {
-  document.querySelectorAll('.faq__question').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const item = btn.closest('.faq__item');
-      const isOpen = item.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', String(isOpen));
-    });
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initSmoothScroll();
-  initFaq();
 });

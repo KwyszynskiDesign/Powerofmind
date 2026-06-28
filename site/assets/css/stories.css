@@ -262,16 +262,6 @@
   }
 }
 
-/* ── Section kicker ── */
-.section__kicker {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 600;
-  color: var(--color-text-light);
-  margin-bottom: var(--space-sm);
-}
-
 /* ── Step tag (sub-label in story steps) ── */
 .step__tag {
   font-size: 0.75rem;

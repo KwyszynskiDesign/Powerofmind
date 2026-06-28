@@ -93,6 +93,7 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Nawigacja główna">
         <ul class="site-nav__list">
+          <li><a href="/" class="site-nav__link">Strona główna</a></li>
           <li><a href="/o-mnie/" class="site-nav__link">O mnie</a></li>
           <li><a href="/oddech/" class="site-nav__link" aria-current="page">Oddech 9D</a></li>
           <li><a href="/testy-mtq/" class="site-nav__link">Testy MTQ</a></li>
@@ -140,24 +141,24 @@
         </div>
 
         <div class="faq" style="max-width:720px;margin-inline:auto;">
-          <div class="faq__item is-open">
-            <button class="faq__question" aria-expanded="true">Co się dzieje w trakcie sesji?</button>
+          <details class="faq__item" open>
+            <summary class="faq__question">Co się dzieje w trakcie sesji?</summary>
             <div class="faq__answer">
               Leżysz komfortowo z zamkniętymi oczami, prowadzony przez spokojny głos i dźwięki 9D. Oddychasz aktywnie, wchodząc w głęboki relaks i sięgasz do emocji, które zwykle są niedostępne. Możesz poczuć ulgę, spokój lub różne emocje – Ty decydujesz, jak głęboko wejdziesz.
             </div>
-          </div>
-          <div class="faq__item">
-            <button class="faq__question" aria-expanded="false">Na czym polega muzyka 9D?</button>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Na czym polega muzyka 9D?</summary>
             <div class="faq__answer">
               To przestrzenny dźwięk w słuchawkach, który „krąży" wokół głowy. W połączeniu z głosem i afirmacjami pomaga szybciej i głębiej zanurzyć się w doświadczeniu, bez analizowania.
             </div>
-          </div>
-          <div class="faq__item">
-            <button class="faq__question" aria-expanded="false">Czy to forma terapii?</button>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Czy to forma terapii?</summary>
             <div class="faq__answer">
               Oddech 9D nie jest terapią, ale może wspierać każdy proces zmiany. Nie wymaga diagnozy – wystarczy otwartość.
             </div>
-          </div>
+          </details>
         </div>
       </div>
     </section>

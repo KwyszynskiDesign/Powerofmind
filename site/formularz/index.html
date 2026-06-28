@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Formularz zapisów – PowerofMind | Ewa Bugaj</title>
+  <meta name="description" content="Zapisz się na sesję Oddechu 9D lub test MTQ. Wypełnij formularz – odpiszę w ciągu 24 godzin i ustalimy termin.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="PowerofMind">
+  <meta property="og:title" content="Formularz zapisów – PowerofMind | Ewa Bugaj">
+  <meta property="og:description" content="Zapisz się na sesję Oddechu 9D lub test MTQ.">
+  <meta property="og:url" content="https://ewabugaj-powerofmind.pl/formularz/">
+  <meta property="og:image" content="https://ewabugaj-powerofmind.pl/assets/images/logo/logo-primary.webp">
+
+  <link rel="icon" type="image/webp" href="/assets/images/logo/favicon-32.webp" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/images/logo/favicon-192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@400;600&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/stories.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="/" class="site-logo" aria-label="PowerofMind – strona główna">
+        <img src="/assets/images/logo/logo-primary.webp" alt="PowerofMind" width="160" height="48">
+      </a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Nawigacja główna">
+        <ul class="site-nav__list">
+          <li><a href="/" class="site-nav__link">Strona główna</a></li>
+          <li><a href="/o-mnie/" class="site-nav__link">O mnie</a></li>
+          <li><a href="/oddech/" class="site-nav__link">Oddech 9D</a></li>
+          <li><a href="/testy-mtq/" class="site-nav__link">Testy MTQ</a></li>
+          <li><a href="/strefa-relaksu/" class="site-nav__link">Strefa Relaksu</a></li>
+          <li><a href="/formularz/" class="site-nav__link site-nav__link--cta" aria-current="page">Zapisz się</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="om-hero" aria-labelledby="form-heading">
+      <div class="container om-hero__inner" style="grid-template-columns: 1fr; max-width: 760px;">
+        <div class="om-hero__card">
+          <h1 class="om-hero__heading" id="form-heading">Zapisz się na sesję</h1>
+          <p class="om-hero__sub">Wypełnij formularz – odpiszę w ciągu 24 godzin i ustalimy termin, który Ci pasuje. Sesje prowadzę online i stacjonarnie w Poznaniu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="form-section-heading">
+      <div class="container" style="max-width: 760px;">
+        <div class="section__header">
+          <h2 class="section__title" id="form-section-heading">Formularz zapisów</h2>
+          <p class="section__sub">Pola oznaczone * są obowiązkowe.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="fc-name">Imię i nazwisko <span aria-hidden="true">*</span></label>
+            <input class="form-input" type="text" id="fc-name" name="name" required minlength="2" autocomplete="name" placeholder="Jan Kowalski">
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="fc-email">Adres e-mail <span aria-hidden="true">*</span></label>
+            <input class="form-input" type="email" id="fc-email" name="email" required autocomplete="email" placeholder="jan@example.com">
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="fc-phone">Numer telefonu <span aria-hidden="true">*</span></label>
+            <input class="form-input" type="tel" id="fc-phone" name="phone" required minlength="9" autocomplete="tel" placeholder="+48 500 000 000">
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+
+          <fieldset class="form-group form-group--radio">
+            <legend class="form-label">Czy akceptujesz ryzyko związane z oddechem? <span aria-hidden="true">*</span></legend>
+            <p class="form-hint">Intensywny oddech może wywołać mrowienie, zawroty głowy lub silne emocje. Osoby z epilepsją, ciężkimi chorobami sercowo-naczyniowymi lub w ciąży powinny skonsultować się z lekarzem.</p>
+            <div class="form-radio-group">
+              <label class="form-radio">
+                <input type="radio" name="ryzyko" value="tak" required>
+                <span>Tak, akceptuję</span>
+              </label>
+              <label class="form-radio">
+                <input type="radio" name="ryzyko" value="nie">
+                <span>Nie, mam pytania</span>
+              </label>
+            </div>
+            <span class="form-error form-error--radio" aria-live="polite"></span>
+          </fieldset>
+
+          <fieldset class="form-group form-group--radio">
+            <legend class="form-label">Akceptacja RODO <span aria-hidden="true">*</span></legend>
+            <p class="form-hint">Wyrażam zgodę na przetwarzanie moich danych osobowych przez Fundację EmpowerMind w celu realizacji usługi i kontaktu. Dane nie będą udostępniane osobom trzecim. Przysługuje mi prawo do ich cofnięcia w każdej chwili.</p>
+            <div class="form-radio-group">
+              <label class="form-radio">
+                <input type="radio" name="rodo" value="tak" required>
+                <span>Tak, wyrażam zgodę</span>
+              </label>
+              <label class="form-radio">
+                <input type="radio" name="rodo" value="nie">
+                <span>Nie wyrażam zgody</span>
+              </label>
+            </div>
+            <span class="form-error form-error--radio" aria-live="polite"></span>
+          </fieldset>
+
+          <div class="form-group">
+            <label class="form-label" for="fc-comment">Komentarz / przeciwwskazania zdrowotne (opcjonalnie)</label>
+            <textarea class="form-input form-textarea" id="fc-comment" name="comment" rows="4" maxlength="500" placeholder="Wpisz tu ewentualne uwagi, pytania lub informacje zdrowotne, które powinienem/-am znać..."></textarea>
+            <span class="form-hint form-hint--counter"><span id="fc-counter">0</span>/500</span>
+          </div>
+
+          <div class="form-status form-success is-hidden" role="alert">
+            Dziękuję! Wiadomość została wysłana. Odpiszę w ciągu 24 godzin.
+          </div>
+          <div class="form-status form-error-msg is-hidden" role="alert">
+            Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio na <a href="mailto:fundacjaempowermind@gmail.com">fundacjaempowermind@gmail.com</a>.
+          </div>
+
+          <button class="btn btn-primary btn-lg form-submit" type="submit">Wyślij zgłoszenie</button>
+        </form>
+
+        <div class="contact-direct" style="margin-top: var(--space-xl); text-align: center;">
+          <p style="color: var(--color-text-light); margin-bottom: var(--space-md);">Wolisz napisać lub zadzwonić?</p>
+          <p class="contact-direct__item">📞 <a href="tel:+48511729973">+48 511 729 973</a></p>
+          <p class="contact-direct__item">✉️ <a href="mailto:fundacjaempowermind@gmail.com">fundacjaempowermind@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <a href="/" class="site-footer__logo" aria-label="PowerofMind – strona główna">
+          <img src="/assets/images/logo/logo-primary.webp" alt="PowerofMind">
+        </a>
+        <nav class="site-footer__nav" aria-label="Nawigacja stopki">
+          <a href="/o-mnie/" class="site-footer__link">O mnie</a>
+          <a href="/oddech/" class="site-footer__link">Oddech 9D</a>
+          <a href="/testy-mtq/" class="site-footer__link">Testy MTQ</a>
+          <a href="/strefa-relaksu/" class="site-footer__link">Strefa Relaksu</a>
+          <a href="/formularz/" class="site-footer__link">Formularz zapisów</a>
+          <a href="/polityka-prywatnosci/" class="site-footer__link">Polityka prywatności</a>
+        </nav>
+      </div>
+      <p class="site-footer__copy">© 2025 PowerofMind – Ewa Bugaj. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/main.js"></script>
+  <script type="module" src="/assets/js/form-handler.js"></script>
+</body>
+</html>

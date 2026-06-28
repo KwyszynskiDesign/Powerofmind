@@ -1,0 +1,69 @@
+<!-- KOMPONENT: form-contact.html — wkleić w sekcji z formularzem -->
+<form class="contact-form" id="contact-form" novalidate>
+  <div class="form-group">
+    <label class="form-label" for="fc-name">Imię i nazwisko <span aria-hidden="true">*</span></label>
+    <input class="form-input" type="text" id="fc-name" name="name" required minlength="2" autocomplete="name" placeholder="Jan Kowalski">
+    <span class="form-error" aria-live="polite"></span>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label" for="fc-email">Adres e-mail <span aria-hidden="true">*</span></label>
+    <input class="form-input" type="email" id="fc-email" name="email" required autocomplete="email" placeholder="jan@example.com">
+    <span class="form-error" aria-live="polite"></span>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label" for="fc-phone">Numer telefonu <span aria-hidden="true">*</span></label>
+    <input class="form-input" type="tel" id="fc-phone" name="phone" required minlength="9" autocomplete="tel" placeholder="+48 500 000 000">
+    <span class="form-error" aria-live="polite"></span>
+  </div>
+
+  <fieldset class="form-group form-group--radio">
+    <legend class="form-label">Czy akceptujesz ryzyko związane z oddechem? <span aria-hidden="true">*</span></legend>
+    <p class="form-hint">Intensywny oddech może wywołać mrowienie, zawroty głowy lub silne emocje. Osoby z epilepsją, ciężkimi chorobami sercowo-naczyniowymi lub w ciąży powinny skonsultować się z lekarzem.</p>
+    <div class="form-radio-group">
+      <label class="form-radio">
+        <input type="radio" name="ryzyko" value="tak" required>
+        <span>Tak, akceptuję</span>
+      </label>
+      <label class="form-radio">
+        <input type="radio" name="ryzyko" value="nie">
+        <span>Nie, mam pytania</span>
+      </label>
+    </div>
+    <span class="form-error form-error--radio" aria-live="polite"></span>
+  </fieldset>
+
+  <fieldset class="form-group form-group--radio">
+    <legend class="form-label">Akceptacja RODO <span aria-hidden="true">*</span></legend>
+    <p class="form-hint">Wyrażam zgodę na przetwarzanie moich danych osobowych przez Fundację EmpowerMind w celu realizacji usługi i kontaktu. Dane nie będą udostępniane osobom trzecim. Przysługuje mi prawo do ich cofnięcia.</p>
+    <div class="form-radio-group">
+      <label class="form-radio">
+        <input type="radio" name="rodo" value="tak" required>
+        <span>Tak, wyrażam zgodę</span>
+      </label>
+      <label class="form-radio">
+        <input type="radio" name="rodo" value="nie">
+        <span>Nie wyrażam zgody</span>
+      </label>
+    </div>
+    <span class="form-error form-error--radio" aria-live="polite"></span>
+  </fieldset>
+
+  <div class="form-group">
+    <label class="form-label" for="fc-comment">Komentarz / przeciwwskazania zdrowotne (opcjonalnie)</label>
+    <textarea class="form-input form-textarea" id="fc-comment" name="comment" rows="4" maxlength="500" placeholder="Wpisz tu ewentualne uwagi, pytania lub informacje zdrowotne, które powinienem/-am znać..."></textarea>
+    <span class="form-hint form-hint--counter"><span id="fc-counter">0</span>/500</span>
+  </div>
+
+  <div class="form-status form-success is-hidden" role="alert">
+    Dziękuję! Wiadomość została wysłana. Odpiszę w ciągu 24 godzin.
+  </div>
+  <div class="form-status form-error-msg is-hidden" role="alert">
+    Coś poszło nie tak. Spróbuj ponownie lub napisz na <a href="mailto:fundacjaempowermind@gmail.com">fundacjaempowermind@gmail.com</a>.
+  </div>
+
+  <button class="btn btn-primary btn-lg form-submit" type="submit">Wyślij zgłoszenie</button>
+</form>
+
+<script type="module" src="/assets/js/form-handler.js"></script>

@@ -61,6 +61,7 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Nawigacja główna">
         <ul class="site-nav__list">
+          <li><a href="/" class="site-nav__link">Strona główna</a></li>
           <li><a href="/o-mnie/" class="site-nav__link" aria-current="page">O mnie</a></li>
           <li><a href="/oddech/" class="site-nav__link">Oddech 9D</a></li>
           <li><a href="/testy-mtq/" class="site-nav__link">Testy MTQ</a></li>
@@ -150,11 +151,11 @@
             <p class="value-card__title">Autentyczność</p>
           </div>
           <div class="value-card">
-            <img class="value-card__img" src="/assets/images/wartosci/wsparcie.webp" alt="Zaufanie – dłonie w geście pomocy" loading="lazy">
+            <img class="value-card__img" src="/assets/images/wartosci/zaufanie.webp" alt="Zaufanie – dłonie w geście pomocy" loading="lazy">
             <p class="value-card__title">Zaufanie</p>
           </div>
           <div class="value-card">
-            <img class="value-card__img" src="/assets/images/wartosci/zaufanie.webp" alt="Wsparcie – współpraca i obecność" loading="lazy">
+            <img class="value-card__img" src="/assets/images/wartosci/wsparcie.webp" alt="Wsparcie – współpraca i obecność" loading="lazy">
             <p class="value-card__title">Wsparcie</p>
           </div>
         </div>
@@ -370,47 +371,37 @@
         <div class="section__header">
           <h2 class="section__title" id="faq-om-heading">Najczęściej zadawane pytania</h2>
         </div>
-        <div class="faq" role="list">
-          <div class="faq__item" role="listitem">
-            <button class="faq__question" aria-expanded="false" aria-controls="faq-om-1">
-              Jak wygląda pierwsza konsultacja?
-            </button>
-            <div class="faq__answer" id="faq-om-1">
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__question">Jak wygląda pierwsza konsultacja?</summary>
+            <div class="faq__answer">
               Podczas pierwszego spotkania poznajemy Twoje potrzeby i oczekiwania. To bezpieczna przestrzeń, w której możesz opowiedzieć, co Cię przywiodło. Razem przyjrzymy się wyzwaniom i zdecydujemy, jak mogę Cię wesprzeć. Spotkanie nie zobowiązuje – to zaproszenie do poznania metody.
             </div>
-          </div>
-          <div class="faq__item" role="listitem">
-            <button class="faq__question" aria-expanded="false" aria-controls="faq-om-2">
-              Co jeśli nigdy nie medytowałem/-am ani nie ćwiczyłem/-am oddechu?
-            </button>
-            <div class="faq__answer" id="faq-om-2">
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Co jeśli nigdy nie medytowałem/-am ani nie ćwiczyłem/-am oddechu?</summary>
+            <div class="faq__answer">
               Spotkania prowadzę tak, aby były dostępne dla każdego – bez względu na doświadczenie. Prowadzę Cię krok po kroku, wyjaśniam prostym językiem i tworzę bezpieczne warunki do eksploracji. Nie musisz niczego umieć ani się przygotowywać.
             </div>
-          </div>
-          <div class="faq__item" role="listitem">
-            <button class="faq__question" aria-expanded="false" aria-controls="faq-om-3">
-              Ile kosztuje sesja i ile trwa?
-            </button>
-            <div class="faq__answer" id="faq-om-3">
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Ile kosztuje sesja i ile trwa?</summary>
+            <div class="faq__answer">
               Czas trwania sesji to zazwyczaj około 90 minut. Cena może się różnić w zależności od rodzaju spotkania (indywidualne, grupowe, online lub stacjonarne). Napisz do mnie, a prześlę aktualny cennik.
             </div>
-          </div>
-          <div class="faq__item" role="listitem">
-            <button class="faq__question" aria-expanded="false" aria-controls="faq-om-4">
-              Czy mogę przyjść z trudnym emocjonalnie tematem?
-            </button>
-            <div class="faq__answer" id="faq-om-4">
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Czy mogę przyjść z trudnym emocjonalnie tematem?</summary>
+            <div class="faq__answer">
               Tak, to właśnie przestrzeń stworzona po to, by móc bezpiecznie dotknąć trudnych emocji i doświadczeń. Niczego nie musisz się wstydzić – wszystko, co wniesiesz, zostanie przyjęte z pełnym szacunkiem, empatią i uważnością. To Ty decydujesz, ile chcesz powiedzieć i w jakim tempie.
             </div>
-          </div>
-          <div class="faq__item" role="listitem">
-            <button class="faq__question" aria-expanded="false" aria-controls="faq-om-5">
-              Czy od razu muszę się zobowiązywać?
-            </button>
-            <div class="faq__answer" id="faq-om-5">
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Czy od razu muszę się zobowiązywać?</summary>
+            <div class="faq__answer">
               Nie. Każde spotkanie może być jednorazowe. Jeśli poczujesz, że to dla Ciebie, możemy wspólnie ustalić dalszą ścieżkę. Nie naciskam i nie stosuję żadnych zobowiązujących umów – najważniejsze jest Twoje poczucie komfortu i gotowości do pracy.
             </div>
-          </div>
+          </details>
         </div>
       </div>
     </section>
