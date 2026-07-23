@@ -18,6 +18,19 @@ function initMobileNav() {
   }, 100));
 }
 
+function initTestimonialsToggle() {
+  const btn = document.getElementById('testimonials-toggle');
+  const extra = document.querySelectorAll('.testimonials-grid__extra');
+  if (!btn || !extra.length) return;
+
+  btn.addEventListener('click', () => {
+    const willShow = extra[0].classList.contains('is-hidden');
+    extra.forEach(el => el.classList.toggle('is-hidden', !willShow));
+    btn.textContent = willShow ? 'Pokaż mniej opinii' : 'Pokaż więcej opinii';
+    btn.setAttribute('aria-expanded', String(willShow));
+  });
+}
+
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
@@ -32,5 +45,6 @@ function initSmoothScroll() {
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
+  initTestimonialsToggle();
   initSmoothScroll();
 });

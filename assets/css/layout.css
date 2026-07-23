@@ -122,7 +122,7 @@
   flex-wrap: wrap;
   gap: var(--space-lg);
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .site-footer__logo img {
@@ -132,8 +132,8 @@
 
 .site-footer__nav {
   display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
+  flex-flow: row wrap;
+  gap: var(--space-sm) var(--space-lg);
 }
 
 .site-footer__link {

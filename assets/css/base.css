@@ -23,9 +23,13 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 a:not([class]) {
   color: var(--color-accent);
-  text-decoration: none;
 }
 
 a:not([class]):hover {
