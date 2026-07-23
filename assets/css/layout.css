@@ -9,8 +9,8 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .site-header__inner {
@@ -23,6 +23,7 @@
 .site-logo img {
   height: 48px;
   width: auto;
+  filter: brightness(0) invert(1);
 }
 
 /* ── Desktop nav ── */
@@ -38,7 +39,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--color-primary);
+  color: rgba(255, 255, 255, 0.85);
   transition: color var(--transition);
 }
 
@@ -74,7 +75,7 @@
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--color-primary);
+  background: #fff;
   transition: transform var(--transition), opacity var(--transition);
 }
 
@@ -90,8 +91,8 @@
     top: 72px;
     left: 0;
     right: 0;
-    background: var(--color-bg);
-    border-bottom: 1px solid var(--color-border);
+    background: var(--color-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding: var(--space-md) var(--container-pad);
   }
 
