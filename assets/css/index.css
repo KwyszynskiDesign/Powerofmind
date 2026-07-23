@@ -3,18 +3,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  background: var(--color-primary);
+  background: var(--color-primary-tint);
   overflow: hidden;
-  color: #fff;
+  color: var(--color-text);
 }
 
 .hero__bg {
-  position: absolute;
-  inset: 0;
-  background-image: url('../images/tla/fog.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.18;
+  display: none;
 }
 
 .hero__inner {
@@ -31,7 +26,7 @@
   font-family: var(--font-heading);
   font-size: clamp(1rem, 2vw, 1.2rem);
   font-style: italic;
-  color: var(--color-accent);
+  color: var(--color-accent-dark);
   margin-bottom: var(--space-md);
   line-height: 1.5;
 }
@@ -39,14 +34,14 @@
 .hero__heading {
   font-family: var(--font-heading);
   font-size: clamp(1.8rem, 3.2vw, 2.5rem);
-  color: #fff;
+  color: var(--color-primary);
   margin-bottom: var(--space-md);
   line-height: 1.15;
 }
 
 .hero__sub {
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.85);
+  color: var(--color-text);
   margin-bottom: var(--space-lg);
   max-width: 540px;
   line-height: 1.7;
@@ -59,16 +54,20 @@
   align-items: center;
 }
 
+.hero__actions .btn {
+  border-radius: 999px;
+}
+
 .hero__note {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.6);
+  color: var(--color-text-light);
   margin-top: var(--space-xs);
 }
 
 .hero__image {
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 50px rgba(35, 64, 112, 0.18);
 }
 
 .hero__image img {
@@ -84,9 +83,6 @@
   }
   .hero__image {
     display: none;
-  }
-  .hero {
-    min-height: 70vh;
   }
 }
 
@@ -413,7 +409,7 @@
   align-items: center;
   gap: var(--space-sm);
   margin-top: var(--space-sm);
-  color: rgba(255,255,255,0.8);
+  color: var(--color-text-light);
   font-size: 0.85rem;
 }
 
